@@ -23,6 +23,8 @@ class RootFlowControllerFactoryTests: XCTestCase {
         super.tearDown()
     }
 
+    // MARK: - Tests
+
     func test_rootFlowController() {
         // given
         // when

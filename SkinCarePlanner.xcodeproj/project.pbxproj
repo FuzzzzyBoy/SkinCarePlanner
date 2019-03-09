@@ -18,6 +18,7 @@
 		9C66C2442233DC7800091B23 /* Container+FlowControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2432233DC7800091B23 /* Container+FlowControllers.swift */; };
 		9C66C2572233E64500091B23 /* LaunchManagerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2562233E64500091B23 /* LaunchManagerFactoryTests.swift */; };
 		9C66C2592233E85E00091B23 /* RootFlowControllerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */; };
+		9C66C25C2233E92500091B23 /* LaunchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */; };
 		9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D72233C50400DC33EE /* AppDelegate.swift */; };
 		9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D92233C50400DC33EE /* ViewController.swift */; };
 		9C7EE2DD2233C50400DC33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7EE2DB2233C50400DC33EE /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		9C66C24D2233DCFE00091B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C66C2562233E64500091B23 /* LaunchManagerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManagerFactoryTests.swift; sourceTree = "<group>"; };
 		9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowControllerFactoryTests.swift; sourceTree = "<group>"; };
+		9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManagerTests.swift; sourceTree = "<group>"; };
 		9C7EE2D42233C50400DC33EE /* SkinCarePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCarePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7EE2D72233C50400DC33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7EE2D92233C50400DC33EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +101,9 @@
 		9C66C22D2233D02B00091B23 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C66C2392233D62200091B23 /* Servieces */,
 				9C66C2342233D4BB00091B23 /* Container */,
 				9C66C2332233D21500091B23 /* Flows */,
+				9C66C2392233D62200091B23 /* Servieces */,
 			);
 			path = "Source Files";
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 		9C66C24A2233DCFE00091B23 /* SkinCarePlannerTests */ = {
 			isa = PBXGroup;
 			children = (
+				9C66C25A2233E90100091B23 /* Servieces */,
 				9C66C2532233DD0E00091B23 /* Container */,
 				9C66C24D2233DCFE00091B23 /* Info.plist */,
 			);
@@ -167,6 +170,14 @@
 				9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */,
 			);
 			path = Container;
+			sourceTree = "<group>";
+		};
+		9C66C25A2233E90100091B23 /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */,
+			);
+			path = Servieces;
 			sourceTree = "<group>";
 		};
 		9C7EE2CB2233C50400DC33EE = {
@@ -349,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C66C25C2233E92500091B23 /* LaunchManagerTests.swift in Sources */,
 				9C66C2592233E85E00091B23 /* RootFlowControllerFactoryTests.swift in Sources */,
 				9C66C2572233E64500091B23 /* LaunchManagerFactoryTests.swift in Sources */,
 			);

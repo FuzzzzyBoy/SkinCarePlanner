@@ -23,6 +23,8 @@ class LaunchManagerFactoryTests: XCTestCase {
         super.tearDown()
     }
 
+    // MARK: - Tests
+
     func test_launchManager() {
         // given
         // when
