@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DC3DA0B37E8DD28D1866E2 /* Pods_SkinCarePlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */; };
 		9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D72233C50400DC33EE /* AppDelegate.swift */; };
 		9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D92233C50400DC33EE /* ViewController.swift */; };
 		9C7EE2DD2233C50400DC33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7EE2DB2233C50400DC33EE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkinCarePlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7EE2D42233C50400DC33EE /* SkinCarePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCarePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7EE2D72233C50400DC33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7EE2D92233C50400DC33EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		9C7EE2DE2233C50500DC33EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C7EE2E12233C50500DC33EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C7EE2E32233C50500DC33EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C9B4FBF384350601ACA247 /* Pods-SkinCarePlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinCarePlanner.release.xcconfig"; path = "Target Support Files/Pods-SkinCarePlanner/Pods-SkinCarePlanner.release.xcconfig"; sourceTree = "<group>"; };
+		EB69D6B30B5D3E3CD7E84A03 /* Pods-SkinCarePlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinCarePlanner.debug.xcconfig"; path = "Target Support Files/Pods-SkinCarePlanner/Pods-SkinCarePlanner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DC3DA0B37E8DD28D1866E2 /* Pods_SkinCarePlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286CEBB0D9D3E06819F3E739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB69D6B30B5D3E3CD7E84A03 /* Pods-SkinCarePlanner.debug.xcconfig */,
+				C8C9B4FBF384350601ACA247 /* Pods-SkinCarePlanner.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		50CB254AF6AEE0A699B8EBCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C7EE2CB2233C50400DC33EE = {
 			isa = PBXGroup;
 			children = (
 				9C7EE2D62233C50400DC33EE /* SkinCarePlanner */,
 				9C7EE2D52233C50400DC33EE /* Products */,
+				286CEBB0D9D3E06819F3E739 /* Pods */,
+				50CB254AF6AEE0A699B8EBCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C7EE2E62233C50500DC33EE /* Build configuration list for PBXNativeTarget "SkinCarePlanner" */;
 			buildPhases = (
+				4134F0E59E77368870A76FCD /* [CP] Check Pods Manifest.lock */,
 				9C7EE2D02233C50400DC33EE /* Sources */,
 				9C7EE2D12233C50400DC33EE /* Frameworks */,
 				9C7EE2D22233C50400DC33EE /* Resources */,
@@ -129,6 +155,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4134F0E59E77368870A76FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkinCarePlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C7EE2D02233C50400DC33EE /* Sources */ = {
@@ -280,6 +331,7 @@
 		};
 		9C7EE2E72233C50500DC33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB69D6B30B5D3E3CD7E84A03 /* Pods-SkinCarePlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +350,7 @@
 		};
 		9C7EE2E82233C50500DC33EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C9B4FBF384350601ACA247 /* Pods-SkinCarePlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
