@@ -6,5 +6,6 @@ target 'SkinCarePlanner' do
   use_frameworks!
 
   # Pods for SkinCarePlanner
+  pod 'SwiftLint', '0.31.0'
 
 end
