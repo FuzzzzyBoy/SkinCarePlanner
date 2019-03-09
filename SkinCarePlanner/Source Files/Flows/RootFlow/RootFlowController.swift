@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol RootFlowController {
+protocol RootFlowController: class {
 
     func getRootViewController() -> UIViewController
 
