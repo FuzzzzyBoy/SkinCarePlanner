@@ -12,12 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private let container: DependencyContainer = BaseDependencyContainer()
 
     // swiftlint:disable:next line_length
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window = UIWindow()
-        window?.rootViewController = BaseRootFlowController().getRootViewController()
-        window?.makeKeyAndVisible()
+        window = container.launchManager().generateWindow()
         return true
     }
 

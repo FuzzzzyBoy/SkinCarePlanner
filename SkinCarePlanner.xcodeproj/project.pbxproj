@@ -10,6 +10,10 @@
 		37DC3DA0B37E8DD28D1866E2 /* Pods_SkinCarePlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */; };
 		9C66C2302233D09700091B23 /* BaseRootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C22F2233D09700091B23 /* BaseRootFlowController.swift */; };
 		9C66C2322233D0E600091B23 /* RootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2312233D0E600091B23 /* RootFlowController.swift */; };
+		9C66C2362233D4F300091B23 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2352233D4F300091B23 /* DependencyContainer.swift */; };
+		9C66C2382233D50F00091B23 /* BaseDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2372233D50F00091B23 /* BaseDependencyContainer.swift */; };
+		9C66C23C2233D63800091B23 /* LaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C23B2233D63800091B23 /* LaunchManager.swift */; };
+		9C66C23E2233D64C00091B23 /* BaseLaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */; };
 		9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D72233C50400DC33EE /* AppDelegate.swift */; };
 		9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D92233C50400DC33EE /* ViewController.swift */; };
 		9C7EE2DD2233C50400DC33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7EE2DB2233C50400DC33EE /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 		6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkinCarePlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C66C22F2233D09700091B23 /* BaseRootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRootFlowController.swift; sourceTree = "<group>"; };
 		9C66C2312233D0E600091B23 /* RootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowController.swift; sourceTree = "<group>"; };
+		9C66C2352233D4F300091B23 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		9C66C2372233D50F00091B23 /* BaseDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDependencyContainer.swift; sourceTree = "<group>"; };
+		9C66C23B2233D63800091B23 /* LaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManager.swift; sourceTree = "<group>"; };
+		9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLaunchManager.swift; sourceTree = "<group>"; };
 		9C7EE2D42233C50400DC33EE /* SkinCarePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCarePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7EE2D72233C50400DC33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7EE2D92233C50400DC33EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +72,8 @@
 		9C66C22D2233D02B00091B23 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C66C2392233D62200091B23 /* Servieces */,
+				9C66C2342233D4BB00091B23 /* Dependency Container */,
 				9C66C2332233D21500091B23 /* Flows */,
 			);
 			path = "Source Files";
@@ -84,6 +94,32 @@
 				9C66C22E2233D07500091B23 /* RootFlow */,
 			);
 			path = Flows;
+			sourceTree = "<group>";
+		};
+		9C66C2342233D4BB00091B23 /* Dependency Container */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C2352233D4F300091B23 /* DependencyContainer.swift */,
+				9C66C2372233D50F00091B23 /* BaseDependencyContainer.swift */,
+			);
+			path = "Dependency Container";
+			sourceTree = "<group>";
+		};
+		9C66C2392233D62200091B23 /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C23A2233D62C00091B23 /* LaunchManager */,
+			);
+			path = Servieces;
+			sourceTree = "<group>";
+		};
+		9C66C23A2233D62C00091B23 /* LaunchManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C23B2233D63800091B23 /* LaunchManager.swift */,
+				9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */,
+			);
+			path = LaunchManager;
 			sourceTree = "<group>";
 		};
 		9C7EE2CB2233C50400DC33EE = {
@@ -235,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */,
+				9C66C2362233D4F300091B23 /* DependencyContainer.swift in Sources */,
+				9C66C23C2233D63800091B23 /* LaunchManager.swift in Sources */,
+				9C66C23E2233D64C00091B23 /* BaseLaunchManager.swift in Sources */,
 				9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */,
+				9C66C2382233D50F00091B23 /* BaseDependencyContainer.swift in Sources */,
 				9C66C2302233D09700091B23 /* BaseRootFlowController.swift in Sources */,
 				9C66C2322233D0E600091B23 /* RootFlowController.swift in Sources */,
 			);
