@@ -17,7 +17,11 @@ final class BaseLaunchManager: LaunchManager {
     }
 
     func generateWindow() -> UIWindow {
-        return UIWindow()
+        let rootFlowController = container.rootFlowController()
+        let window = UIWindow()
+        window.rootViewController = rootFlowController.getRootViewController()
+        window.makeKeyAndVisible()
+        return window
     }
 
 }

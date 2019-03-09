@@ -6,8 +6,12 @@
 //  Copyright © 2019 Kirill Shalhansky. All rights reserved.
 //
 
-protocol DependencyContainer: LaunchManagerFactory {}
+protocol DependencyContainer: LaunchManagerFactory, RootFlowControllerFactory {}
 
 protocol LaunchManagerFactory {
     func launchManager() -> LaunchManager
+}
+
+protocol RootFlowControllerFactory {
+    func rootFlowController() -> RootFlowController
 }

@@ -10,9 +10,8 @@ final class BaseDependencyContainer: DependencyContainer {
 
     // Singletones
 
-    private lazy var launchManagerShared: LaunchManager = {
-        return getLaunchManager()
-    }()
+    private lazy var launchManagerShared: LaunchManager = { return getLaunchManager() }()
+    private lazy var rootFlowControllerShared: RootFlowController = { return getRootFlowController() }()
 }
 
 extension BaseDependencyContainer: LaunchManagerFactory {
@@ -23,6 +22,18 @@ extension BaseDependencyContainer: LaunchManagerFactory {
 
     private func getLaunchManager() -> LaunchManager {
         return BaseLaunchManager(container: self)
+    }
+
+}
+
+extension BaseDependencyContainer: RootFlowControllerFactory {
+
+    func rootFlowController() -> RootFlowController {
+        return rootFlowControllerShared
+    }
+
+    private func getRootFlowController() -> RootFlowController {
+        return BaseRootFlowController()
     }
 
 }
