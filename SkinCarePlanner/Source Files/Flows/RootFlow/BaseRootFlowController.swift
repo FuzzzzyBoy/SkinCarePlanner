@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class BaseRootFlowController {
+final class BaseRootFlowController: RootFlowController {
 
     private var rootViewController: UIViewController?
 

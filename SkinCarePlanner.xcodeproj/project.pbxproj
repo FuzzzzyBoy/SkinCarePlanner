@@ -10,6 +10,16 @@
 		37DC3DA0B37E8DD28D1866E2 /* Pods_SkinCarePlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */; };
 		9C66C2302233D09700091B23 /* BaseRootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C22F2233D09700091B23 /* BaseRootFlowController.swift */; };
 		9C66C2322233D0E600091B23 /* RootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2312233D0E600091B23 /* RootFlowController.swift */; };
+		9C66C2362233D4F300091B23 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2352233D4F300091B23 /* Container.swift */; };
+		9C66C2382233D50F00091B23 /* BaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2372233D50F00091B23 /* BaseContainer.swift */; };
+		9C66C23C2233D63800091B23 /* LaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C23B2233D63800091B23 /* LaunchManager.swift */; };
+		9C66C23E2233D64C00091B23 /* BaseLaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */; };
+		9C66C2422233DC2000091B23 /* Container+Servieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2412233DC2000091B23 /* Container+Servieces.swift */; };
+		9C66C2442233DC7800091B23 /* Container+FlowControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2432233DC7800091B23 /* Container+FlowControllers.swift */; };
+		9C66C2572233E64500091B23 /* LaunchManagerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2562233E64500091B23 /* LaunchManagerFactoryTests.swift */; };
+		9C66C2592233E85E00091B23 /* RootFlowControllerFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */; };
+		9C66C25C2233E92500091B23 /* LaunchManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */; };
+		9C66C25F2233EBBD00091B23 /* RootFlowControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C25E2233EBBD00091B23 /* RootFlowControllerTests.swift */; };
 		9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D72233C50400DC33EE /* AppDelegate.swift */; };
 		9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EE2D92233C50400DC33EE /* ViewController.swift */; };
 		9C7EE2DD2233C50400DC33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7EE2DB2233C50400DC33EE /* Main.storyboard */; };
@@ -17,10 +27,32 @@
 		9C7EE2E22233C50500DC33EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C7EE2E02233C50500DC33EE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C66C24E2233DCFE00091B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C7EE2CC2233C50400DC33EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C7EE2D32233C50400DC33EE;
+			remoteInfo = SkinCarePlanner;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		6DB79C42D139997B6329771F /* Pods_SkinCarePlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkinCarePlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C66C22F2233D09700091B23 /* BaseRootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRootFlowController.swift; sourceTree = "<group>"; };
 		9C66C2312233D0E600091B23 /* RootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowController.swift; sourceTree = "<group>"; };
+		9C66C2352233D4F300091B23 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		9C66C2372233D50F00091B23 /* BaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContainer.swift; sourceTree = "<group>"; };
+		9C66C23B2233D63800091B23 /* LaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManager.swift; sourceTree = "<group>"; };
+		9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLaunchManager.swift; sourceTree = "<group>"; };
+		9C66C2412233DC2000091B23 /* Container+Servieces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Servieces.swift"; sourceTree = "<group>"; };
+		9C66C2432233DC7800091B23 /* Container+FlowControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+FlowControllers.swift"; sourceTree = "<group>"; };
+		9C66C2492233DCFE00091B23 /* SkinCarePlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkinCarePlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C66C24D2233DCFE00091B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C66C2562233E64500091B23 /* LaunchManagerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManagerFactoryTests.swift; sourceTree = "<group>"; };
+		9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowControllerFactoryTests.swift; sourceTree = "<group>"; };
+		9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManagerTests.swift; sourceTree = "<group>"; };
+		9C66C25E2233EBBD00091B23 /* RootFlowControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowControllerTests.swift; sourceTree = "<group>"; };
 		9C7EE2D42233C50400DC33EE /* SkinCarePlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCarePlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C7EE2D72233C50400DC33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C7EE2D92233C50400DC33EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C66C2462233DCFE00091B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C7EE2D12233C50400DC33EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,7 +103,9 @@
 		9C66C22D2233D02B00091B23 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C66C2342233D4BB00091B23 /* Container */,
 				9C66C2332233D21500091B23 /* Flows */,
+				9C66C2392233D62200091B23 /* Servieces */,
 			);
 			path = "Source Files";
 			sourceTree = "<group>";
@@ -86,10 +127,75 @@
 			path = Flows;
 			sourceTree = "<group>";
 		};
+		9C66C2342233D4BB00091B23 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C2352233D4F300091B23 /* Container.swift */,
+				9C66C2412233DC2000091B23 /* Container+Servieces.swift */,
+				9C66C2432233DC7800091B23 /* Container+FlowControllers.swift */,
+				9C66C2372233D50F00091B23 /* BaseContainer.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		9C66C2392233D62200091B23 /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C23A2233D62C00091B23 /* LaunchManager */,
+			);
+			path = Servieces;
+			sourceTree = "<group>";
+		};
+		9C66C23A2233D62C00091B23 /* LaunchManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C23B2233D63800091B23 /* LaunchManager.swift */,
+				9C66C23D2233D64C00091B23 /* BaseLaunchManager.swift */,
+			);
+			path = LaunchManager;
+			sourceTree = "<group>";
+		};
+		9C66C24A2233DCFE00091B23 /* SkinCarePlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C25D2233EBA300091B23 /* Flows */,
+				9C66C25A2233E90100091B23 /* Servieces */,
+				9C66C2532233DD0E00091B23 /* Container */,
+				9C66C24D2233DCFE00091B23 /* Info.plist */,
+			);
+			path = SkinCarePlannerTests;
+			sourceTree = "<group>";
+		};
+		9C66C2532233DD0E00091B23 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C2562233E64500091B23 /* LaunchManagerFactoryTests.swift */,
+				9C66C2582233E85E00091B23 /* RootFlowControllerFactoryTests.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		9C66C25A2233E90100091B23 /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C25B2233E92500091B23 /* LaunchManagerTests.swift */,
+			);
+			path = Servieces;
+			sourceTree = "<group>";
+		};
+		9C66C25D2233EBA300091B23 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C25E2233EBBD00091B23 /* RootFlowControllerTests.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
 		9C7EE2CB2233C50400DC33EE = {
 			isa = PBXGroup;
 			children = (
 				9C7EE2D62233C50400DC33EE /* SkinCarePlanner */,
+				9C66C24A2233DCFE00091B23 /* SkinCarePlannerTests */,
 				9C7EE2D52233C50400DC33EE /* Products */,
 				286CEBB0D9D3E06819F3E739 /* Pods */,
 				50CB254AF6AEE0A699B8EBCF /* Frameworks */,
@@ -100,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				9C7EE2D42233C50400DC33EE /* SkinCarePlanner.app */,
+				9C66C2492233DCFE00091B23 /* SkinCarePlannerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +228,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9C66C2482233DCFE00091B23 /* SkinCarePlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C66C2502233DCFE00091B23 /* Build configuration list for PBXNativeTarget "SkinCarePlannerTests" */;
+			buildPhases = (
+				9C66C2452233DCFE00091B23 /* Sources */,
+				9C66C2462233DCFE00091B23 /* Frameworks */,
+				9C66C2472233DCFE00091B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C66C24F2233DCFE00091B23 /* PBXTargetDependency */,
+			);
+			name = SkinCarePlannerTests;
+			productName = SkinCarePlannerTests;
+			productReference = 9C66C2492233DCFE00091B23 /* SkinCarePlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9C7EE2D32233C50400DC33EE /* SkinCarePlanner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C7EE2E62233C50500DC33EE /* Build configuration list for PBXNativeTarget "SkinCarePlanner" */;
@@ -150,6 +275,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Kirill Shalhansky";
 				TargetAttributes = {
+					9C66C2482233DCFE00091B23 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9C7EE2D32233C50400DC33EE;
+					};
 					9C7EE2D32233C50400DC33EE = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -169,11 +298,19 @@
 			projectRoot = "";
 			targets = (
 				9C7EE2D32233C50400DC33EE /* SkinCarePlanner */,
+				9C66C2482233DCFE00091B23 /* SkinCarePlannerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C66C2472233DCFE00091B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C7EE2D22233C50400DC33EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,18 +367,43 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C66C2452233DCFE00091B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C66C25C2233E92500091B23 /* LaunchManagerTests.swift in Sources */,
+				9C66C2592233E85E00091B23 /* RootFlowControllerFactoryTests.swift in Sources */,
+				9C66C2572233E64500091B23 /* LaunchManagerFactoryTests.swift in Sources */,
+				9C66C25F2233EBBD00091B23 /* RootFlowControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C7EE2D02233C50400DC33EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9C7EE2DA2233C50400DC33EE /* ViewController.swift in Sources */,
+				9C66C2442233DC7800091B23 /* Container+FlowControllers.swift in Sources */,
+				9C66C2362233D4F300091B23 /* Container.swift in Sources */,
+				9C66C23C2233D63800091B23 /* LaunchManager.swift in Sources */,
+				9C66C23E2233D64C00091B23 /* BaseLaunchManager.swift in Sources */,
+				9C66C2422233DC2000091B23 /* Container+Servieces.swift in Sources */,
 				9C7EE2D82233C50400DC33EE /* AppDelegate.swift in Sources */,
+				9C66C2382233D50F00091B23 /* BaseContainer.swift in Sources */,
 				9C66C2302233D09700091B23 /* BaseRootFlowController.swift in Sources */,
 				9C66C2322233D0E600091B23 /* RootFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C66C24F2233DCFE00091B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C7EE2D32233C50400DC33EE /* SkinCarePlanner */;
+			targetProxy = 9C66C24E2233DCFE00091B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9C7EE2DB2233C50400DC33EE /* Main.storyboard */ = {
@@ -263,6 +425,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9C66C2512233DCFE00091B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3R3Z3JF3Q;
+				INFOPLIST_FILE = SkinCarePlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stream.SkinCarePlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinCarePlanner.app/SkinCarePlanner";
+			};
+			name = Debug;
+		};
+		9C66C2522233DCFE00091B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3R3Z3JF3Q;
+				INFOPLIST_FILE = SkinCarePlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stream.SkinCarePlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkinCarePlanner.app/SkinCarePlanner";
+			};
+			name = Release;
+		};
 		9C7EE2E42233C50500DC33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,6 +622,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C66C2502233DCFE00091B23 /* Build configuration list for PBXNativeTarget "SkinCarePlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C66C2512233DCFE00091B23 /* Debug */,
+				9C66C2522233DCFE00091B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C7EE2CF2233C50400DC33EE /* Build configuration list for PBXProject "SkinCarePlanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

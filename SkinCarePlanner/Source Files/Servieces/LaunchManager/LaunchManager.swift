@@ -1,5 +1,5 @@
 //
-//  RootFlowController.swift
+//  LaunchManager.swift
 //  SkinCarePlanner
 //
 //  Created by Кирилл Шаханский on 09/03/2019.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-protocol RootFlowController: class {
+protocol LaunchManager: class {
 
-    func getRootViewController() -> UIViewController
+    typealias DependencyContainer = RootFlowControllerFactory
+
+    func generateWindow() -> UIWindow
 
 }
