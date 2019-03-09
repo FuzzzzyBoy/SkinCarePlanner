@@ -10,6 +10,8 @@ import UIKit
 
 protocol LaunchManager {
 
+    typealias DependencyContainer = RootFlowControllerFactory
+
     func generateWindow() -> UIWindow
 
 }

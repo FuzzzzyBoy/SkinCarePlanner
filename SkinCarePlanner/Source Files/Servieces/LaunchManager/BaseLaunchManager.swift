@@ -10,7 +10,7 @@ import UIKit
 
 final class BaseLaunchManager: LaunchManager {
 
-    private let container: DependencyContainer
+    private let container: LaunchManager.DependencyContainer
 
     init(container: DependencyContainer) {
         self.container = container
