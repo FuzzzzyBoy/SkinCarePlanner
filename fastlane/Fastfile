@@ -16,5 +16,8 @@
 default_platform(:ios)
 
 lane :tests do
-  run_tests(scheme: "SkinCarePlanner")
+  run_tests(
+    scheme: "SkinCarePlanner",
+    clean: true
+    )
 end
