@@ -2,6 +2,7 @@ os: osx
 osx_image: xcode10.1
 language: swift
 install:
+  - gem update --system
   - bundle install -v '2.0.1'
 script:
   - fastlane tests
