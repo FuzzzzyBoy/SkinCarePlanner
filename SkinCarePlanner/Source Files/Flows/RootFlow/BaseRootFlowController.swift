@@ -21,6 +21,7 @@ final class BaseRootFlowController: RootFlowController {
             getCalendarViewController(),
             getCatalogViewController()
         ]
+        rootViewController = tabBarController
         return tabBarController
     }
 
