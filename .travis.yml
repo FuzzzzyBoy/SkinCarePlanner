@@ -2,6 +2,6 @@ os: osx
 osx_image: xcode10.1
 language: swift
 install:
-  - bundle install
+  - bundle install -v '2.0.1'
 script:
   - fastlane tests
