@@ -1,0 +1,8 @@
+os: osx
+osx_image: xcode10.1
+language: swift
+install:
+  - gem install bundler -v 2.0.1
+  - bundle install
+script:
+  - fastlane tests

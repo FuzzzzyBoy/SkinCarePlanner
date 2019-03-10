@@ -15,6 +15,15 @@
 
 default_platform(:ios)
 
+before_all do
+    cocoapods(
+      repo_update: true
+      )
+  end
+
 lane :tests do
-  run_tests(scheme: "SkinCarePlanner")
+  run_tests(
+    scheme: "SkinCarePlanner",
+    clean: true
+    )
 end
